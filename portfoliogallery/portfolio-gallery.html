@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Gallery</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/portfolio.css"
 </head>
 <body>
 
-    <h1>Portfolio Gallery</h1>
+    
 
     <nav class="navbar">
         <ul class="nav-links">
@@ -18,6 +19,20 @@
             <li><a href="../portfoliogallery/portfolio-gallery.html">Portfolio Gallery</a></li>
         </ul>
     </nav>
+
+    <div class="slider">
+
+  <div class="slider">
+    <div class="slides">
+      <img src="glide.JPG" class="slide active"/>
+      <img src="make.JPG" class="slide"/>
+      <img src="razorpay.JPG" class="slide"/>
+    </div>
+
+    <button class="btn prev" onclick="changeSlide(-1)">&#10094;</button>
+    <button class="btn next" onclick="changeSlide(1)">&#10095;</button>
+  </div>
+   
 
     <main>
         <h2>Our Portfolio</h2>
@@ -38,6 +53,8 @@
         <footer>
             <p>&copy; 2026 Avenue Design. All rights reserved.</p>
         </footer>
+
+          <script src="portfolio.js"></script>
     
 </body>
 </html>
