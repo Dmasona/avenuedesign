@@ -1,0 +1,37 @@
+.pdf-link {
+    display: inline-block;
+    color: #ffffff;
+    background: #000000;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s ease;
+}
+
+.pdf-link:hover {
+    background: #2e2e36;
+}
+
+.contact-info {
+    
+   font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #000000;
+    list-style: none;
+}
+.contact-info li {
+    margin-bottom: 8px;
+     
+}
+
+.contact-info a {
+    color: #0c10e9;
+    text-decoration: none;
+   
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
